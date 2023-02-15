@@ -1,0 +1,164 @@
+*{
+    font-family: "DM Sans", sans-serif;
+}
+
+.container-fluid{
+width: 100%;
+padding-left: 15px !important;
+padding-right: 0 !important;
+margin-left: auto;
+margin-right: 0;
+}
+
+.main-row{
+    display: flex;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.left-col{
+width: 100%;
+display: flex;
+padding:0 15px !important;
+position: relative;
+flex-direction: column;
+flex-wrap: wrap;
+}
+@media (min-width: 768px) {
+    .left-col {
+    flex: 0 0 66.666667%;
+    max-width: 66.666667%;
+}}
+
+.right-col{
+    padding-left: 15px !important;
+    padding-right: 0!important;
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 0!important;
+    
+}
+
+@media (min-width: 768px) {
+    .right-col{
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+}}
+
+.form{
+    padding: 0 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.row-forgot{
+    display: flex;
+    justify-content: center;
+}
+
+.login-btn{
+    background-color: #4b0dba !important;
+    display: block;
+}
+
+.form-group{
+    margin-bottom: 1rem;
+}
+
+
+.img-class{
+    /* max-width: 500px; */
+    min-width: 347.5px;
+        height: 100vh;
+           
+}
+
+.sidebar-logo{
+    height: 35px;
+    width: 40px;
+    padding: 0;
+    
+}
+
+.toolbar{
+    padding: 0 10px !important;
+}
+
+
+.roadmap-area{
+    display: flex;
+    flex-direction: column;
+    max-width: 384px;
+}
+
+
+.sessions-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    justify-items: center;
+    text-align: center;
+    column-gap: 16px;
+    grid-row-gap: 12px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    min-width: 320px;
+
+}
+
+
+.sessions-container h6{
+    padding-top: 8px;
+}
+
+.session-roadmap{
+border: 2px solid #4b0dba;
+border-radius: 50%;
+width: 40px;
+height: 40px;
+background-color: #4b0dba;
+color: #fff;
+}
+
+.step_path_left,
+.step_path_right {
+    width: 30px;
+    border: 2px solid #93a4b7;
+    border-radius: 10px;
+    position: relative;
+    bottom: 32px;
+    margin-top: 20px;
+}
+
+.step_path_right{
+    left:38px;
+}
+
+.step_path_left{
+    right:30px;
+}
+.step_path_bottom{
+width: 12px;
+border: 2px solid #93a4b7;
+border-radius: 10px;
+position: relative;
+left: 13px;
+top: 8px;
+transform: rotate(90deg);
+}
+
+
+.form-div input{
+    width: 400px;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.form-div div{
+    width: 700px;
+    align-items: center;
+    padding: 5px;
+}
